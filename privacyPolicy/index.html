@@ -1,8 +1,9 @@
 <html>
   <head>
     <meta name="robots" content="noindex">
-
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <style>
+
       .article_top {
         line-height:160%;
       }
@@ -13,20 +14,31 @@
         width:100%;
         max-width:1100px;
       }
-      ul{ 
+      .classul{ 
           list-style:none; 
           line-height:200%;
+          margin-left:-2rem;
         }
-        .textcomment {
-          font-size:0.9em;
+      .textcomment {
+          font-size:1.1em;
         }
+      .tablemain {
+        font-size:0.8rem;
+        text-align:center;
+        width:100%;
+        border-collapse:collapse; 
+        border:2px solid #000000;
+      }
+      .tablemain tr, .tablemain td {
+        font-size:0.7rem;
+        border:1px solid #000000;
+        padding:0.4rem 0.1rem 0.4rem 0.2rem;
+      }
     </style>
   </head>
   <body>
-
-    
-    <div>
-      <p class="article_top">
+    <div style="font-size:12px;max-width:1140px;min-width:300px;">
+      <p class="article_top" >
         안녕하세요. 고객님. (주)한섬 관리자 입니다.<br>
         항상 한섬 브랜드와 EQL을 이용해주셔서 감사드립니다.<br>
         2021년 5월 3일자로 개인정보 처리 방침에 대한 변경을 진행함에 따라 아래와 같이 변경 내용 및 일정을 <br>
@@ -34,39 +46,382 @@
       </p>
       <p class="article_main">
         - 아     래 -
-        <ul>
+        <ul class="classul">
           <li>1. 개인정보 처리 방침 변경 사항
-            <ul>
+            <ul class="classul">
               <li>제2조 개인정보의 수집항목 및 이용목적  
-                <ul>
+                <ul class="classul">
                   <li>1. 회원가입 및 주문 등 필요 시점에 수집하는 개인정보의 범위</li>
-                  <li><img class="pimage" src="http://ep.eqlstore.com/privacyPolicy/privacyPolicy_01.png"></li>
+                  <li>
+                    <table cellspacing="0" cellpadding="0" class="tablemain">
+                      <tr>
+                        <td colspan="4" style="width:45%;font-weight:600;">기존</td>
+                        <td colspan="4" style="width:45%;font-weight:600;border-left:double;"">변경</td>
+                        <td rowspan="2" style="width:45%;font-weight:600;"">비고</td>
+                      </tr>
+                      <tr>
+                        <td style="width:8%;font-weight:600;">수집방법</td>
+                        <td style="width:8%;font-weight:600;">이용목적</td>
+                        <td style="width:5%;font-weight:600;">수집정보</td>
+                        <td style="width:26%;font-weight:600;">수집항목</td>
+                        <td style="width:8%;font-weight:600;border-left:double;">수집방법</td>
+                        <td style="width:8%;font-weight:600;">이용목적</td>
+                        <td style="width:5%;font-weight:600;">수집정보</td>
+                        <td style="width:26%;font-weight:600;">수집항목</td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>통합회원가입<br><br>( H.point /<br>현대백화점 )</td>
+                        <td>이큐엘닷컴 및 H.point 서비스 이용 및 상담</td>
+                        <td>필수</td>
+                        <td style="text-align:left;">- 이름, 아이디, 비밀번호, 생년월일, 성별 : <br>
+                          &nbsp;&nbsp;회원식별<br>
+                        - 휴대폰 번호 : <br>
+                        &nbsp;&nbsp;1:1 문의 시 SMS 답변 알림(EQL), <br>
+                        &nbsp;&nbsp;마케팅 정보 수신 동의 /거부(SMS)<br>
+                        - 이메일 : 마케팅 정보 수신 동의/거부</td>
+                        <td style="border-left:double;">통합회원가입<br><br>( H.point /<br>현대백화점 )</td>
+                        <td>이큐엘닷컴 및 H.point 서비스 이용 및 상담</td>
+                        <td>필수</td>
+                        <td style="text-align:left;">- 이름, 아이디, 비밀번호, 생년월일, 성별 : <br>
+                          &nbsp;&nbsp;회원식별<br>
+                        - 휴대폰 번호 : <br>
+                        &nbsp;&nbsp;1:1 문의 시 SMS 답변 알림(EQL), <br>
+                        &nbsp;&nbsp;마케팅 정보 수신 동의 /거부(SMS)<br>
+                        - 이메일 : 마케팅 정보 수신 동의/거부<br>
+                        <b>- 카카오톡 계정 정보 : 회원 식별</b></td>
+                        <td style="width:6%;">항목추가</td>
+                      </tr>
+
+                      <tr style="font-size:0.85rem;">
+                        <td>구매 및 배송</td>
+                        <td>구매 결제</td>
+                        <td>필수</td>
+                        <td style="text-align:left;">- 신용카드번호 : 신용카드 결제 시<br>
+                          - 은행계좌번호 : 실시간 계좌이체 시<br>
+                          - 포인트 카드 번호 : 포인트로 결제 시<br>
+                          - 휴대폰 번호 : 결제 완료 시 안내문자 발송</td>
+                        <td style="border-left:double;">구매 및 배송</td>
+                        <td>구매 결제</td>
+                        <td>필수</td>
+                        <td style="text-align:left;">- 신용카드번호 : 신용카드, <b>카카오페이, <br>
+                          &nbsp;&nbsp;네이버페이, TOSS, PAYCO 결제 시</b><br>
+                       - 은행계좌번호 : 실시간 계좌이체 시<br>
+                       - 포인트 카드 번호 : 포인트로 결제 시<br>
+                       - 휴대폰 번호 : 결제 완료 시 안내문자 발송<br>
+                       <br>
+                       <b>[비회원구매]<br>
+                       - 주문자 정보 : 이름, 휴대폰번호, 이메일 주소<br>
+                       - 수신자 정보 : 이름, 휴대폰번호, 배송지 주소<br>
+                       - 결제 정보 : 신용카드, TOSS, PAYCO 결제 시</b></td>
+                        <td style="width:6%;">항목추가</td>
+                      </tr>
+
+                      <tr style="font-size:0.85rem;">
+                        <td>기타</td>
+                        <td>신규 서비스 / 상품안내</td>
+                        <td>선택</td>
+                        <td style="text-align:left;">- 휴대폰 번호 : <br>
+                          &nbsp;&nbsp;마케팅 정보 수신 동의/거부(SMS)<br>
+                        - 이메일 : <br>
+                        &nbsp;&nbsp;마케팅 정보 수신 동의/거부</td>
+                        <td style="border-left:double;">기타</td>
+                        <td>신규 서비스 / 상품안내</td>
+                        <td>선택</td>
+                        <td style="text-align:left;">- 휴대폰 번호 : 마케팅 정보 수신 동의/거부(SMS)<br>
+                          - 이메일 : 마케팅 정보 수신 동의/거부<br>
+                          <b>- 서비스 이용 기록 : 별도 동의<br>
+                          - 주소 : 별도 동의</b></td>
+                        <td style="width:6%;">항목추가</td>
+                      </tr>
+                    </table>
+                  </li>
                   <li class="textcomment">- 수집 항목의 추가</li>
                 </ul>
                 <br>
-                <ul>
+                <ul class="classul">
                   <li>2. 서비스 이용과정에서 생성되는 정보 </li>
-                  <li><img class="pimage" src="http://ep.eqlstore.com/privacyPolicy/privacyPolicy_02.png"></li>
+                  <li>
+                    
+                    <table cellspacing="0" cellpadding="0" class="tablemain">
+                      <tr>
+                        <td colspan="4" style="width:45%;font-weight:600;">기존</td>
+                        <td colspan="4" style="width:45%;font-weight:600;border-left:double;"">변경</td>
+                        <td rowspan="2" style="width:10%;font-weight:600;"">비고</td>
+                      </tr>
+                      <tr>
+                        <td style="width:8%;font-weight:600;">수집방법</td>
+                        <td style="width:8%;font-weight:600;">이용목적</td>
+                        <td style="width:5%;font-weight:600;">수집정보</td>
+                        <td style="width:22%;font-weight:600;">수집항목</td>
+                        <td style="width:8%;font-weight:600;border-left:double;">수집방법</td>
+                        <td style="width:8%;font-weight:600;">이용목적</td>
+                        <td style="width:5%;font-weight:600;">수집정보</td>
+                        <td style="width:30%;font-weight:600;">수집항목</td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td rowspan="2">이큐엘닷컴<br>
+                          Web Site<br>
+                          Mobile APP<br>
+                          Mobile Web </td>
+                        <td>본인 확인</td>
+                        <td>필수</td>
+                        <td style="text-align:left;">- 간편인증 : 이름, 휴대폰 번호<br>
+                        - 문자인증 : <br>
+                        &nbsp;&nbsp;이름, 휴대폰 번호, 생년월일, 성별<br>
+                        - H.point 통합회원가입 시 본인인증 수행<br>
+                        &nbsp;&nbsp;(휴대폰 인증, 아이핀 인증) : <br>
+                        &nbsp;&nbsp;CI, DI, 나이, 연령대</td>
+                        <td style="border-left:double;">이큐엘닷컴<br>
+                          Web Site<br>
+                          Mobile APP<br>
+                          Mobile Web </td>
+                        <td>본인 확인</td>
+                        <td>필수</td>
+                        <td style="text-align:left;">- 간편인증 : 이름, 휴대폰 번호<br>
+                          - 문자인증 : 이름, 휴대폰 번호, 생년월일, 성별<br>
+                          - H.point 통합회원가입 시 본인인증 수행<br>
+                          &nbsp;&nbsp;(휴대폰 인증, 아이핀 인증) : CI, DI, 나이, 연령대<br>
+                          <b>- 아이디 찾기 인증방법<br>
+                            &nbsp;&nbsp;가입 휴대폰 인증 : 이름, 생년월일(8자리), 휴대폰번호<br>
+                            &nbsp;&nbsp;카카오로 찾기 : 카카오계정(이메일,전화번호), <br>
+                            &nbsp;&nbsp;본인확인정보(성별,생년월일,이름), CI (연계정보 )<br>
+                            &nbsp;&nbsp;아이핀 본인인증 : 이름, 휴대폰번호, 성별, 생년월일<br>
+                            <br>
+                          - 비밀번호 찾기 인증방법<br>
+                          &nbsp;&nbsp;가입 휴대폰 인증 : 이름, 생년월일(8자리), 휴대폰번호<br>
+                          &nbsp;&nbsp;가입 이메일 정보 인증 : 이름, 생년월일(8자리), 이메일<br>
+                          &nbsp;&nbsp;휴대폰 본인 인증 : QR 인증, 간편인증, 문자인증<br>
+                          &nbsp;&nbsp;카카오로 찾기 : 상동<br>
+                          &nbsp;&nbsp;아이핀 본인 인증 : 상동</b></td>
+                        <td style="width:6%;">항목추가</td>
+                      </tr>
+
+                      <tr style="font-size:0.85rem;">
+                        <td>EQL 입점상담</td>
+                        <td>선택</td>
+                        <td style="text-align:left;">담당자명, 전화번호, 담당자 휴대폰 번호
+                          담당자 이메일 : 입점상담 결과 회신</td>
+                        <td style="border-left:double;text-align:left;" colspan="4">&nbsp;<b>1. 회원 가입 및 주문 등 필요시점에 수집하는 개인정보의 범위로 이동.</b></td>
+                        <td style="width:6%;">항목이동</td>
+                      </tr>
+                    </table>
+                  </li>
                   <li class="textcomment">- 본인 확인 방법의 추가 / 임점상담 항목에 대한 이동</li>
                 </ul>
                 <br>
-                <ul>
+                <ul class="classul">
                   <li>3. 기타 법정 의무 수집 정보 등 </li>
-                  <li><img class="pimage" src="http://ep.eqlstore.com/privacyPolicy/privacyPolicy_03_01.png"></li>
+                  <li>
+                    
+                    <table cellspacing="0" cellpadding="0" class="tablemain">
+                      <tr>
+                        <td colspan="4" style="width:40%;font-weight:600;">기존</td>
+                        <td colspan="4" style="width:54%;font-weight:600;border-left:double;"">변경</td>
+                        <td rowspan="2" style="width:6%;font-weight:600;"">비고</td>
+                      </tr>
+                      <tr>
+                        <td style="width:7%;font-weight:600;">관련법률</td>
+                        <td style="width:10%;font-weight:600;">이용목적</td>
+                        <td style="width:9%;font-weight:600;">수집항목</td>
+                        <td style="width:10%;font-weight:600;">보유기간</td>
+                        <td style="width:7%;font-weight:600;border-left:double;">관련법률</td>
+                        <td style="width:10%;font-weight:600;">이용목적</td>
+                        <td style="width:8%;font-weight:600;">수집항목</td>
+                        <td style="width:25%;font-weight:600;">보유기간</td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td >전자상거래보호법</td>
+                        <td>소비자 불만 또는 <br>
+                          분쟁처리,<br>
+                          계약내용 확인</td>
+                        <td>고객식별정보, <br>
+                          분쟁처리기록, <br>
+                          계약/철회 기록</td>
+                        <td>3년 / 5년</td>
+                        <td style="border-left:double;">전자상거래보호법</td>
+                        <td>소비자 불만 또는 <br>
+                          분쟁처리,<br>
+                          계약내용 확인</td>
+                        <td>고객식별정보, <br>
+                          분쟁처리기록, <br>
+                          계약/철회 기록</td>
+                        <td style="width:6%;text-align:left"><b>계약 또는 청약철회 등에 관한 기록 : 5년 <br>
+                          대금결제 및 재화 등의 공급에 관한 기록 : 5년 <br>
+                          소비자의 불만 또는 분쟁처리에 관한 기록 : 3년</b></td>
+                        <td style="width:6%;">보유기간<br>
+                          표기 수정</td>
+                      </tr>
+                    </table>                    
+                    </li>
                   <li class="textcomment">- 보유 기간을 항목에 따라 더 자세하게 명시</li>
                 </ul>
                 <br>
               </li>
               <li>제9조 개인정보의 위탁처리  
-                <ul>
-                  <li><img class="pimage" src="http://ep.eqlstore.com/privacyPolicy/privacyPolicy_04.png"></li>
+                <ul class="classul">
+                  <li>
+                    
+                    <table cellspacing="0" cellpadding="0" class="tablemain">
+                      <tr>
+                        <td colspan="3" style="width:48%;font-weight:600;">기존</td>
+                        <td colspan="3" style="width:48%;font-weight:600;border-left:double;"">변경</td>
+                        <td rowspan="2" style="width:4%;font-weight:600;"">비고</td>
+                      </tr>
+                      <tr>
+                        <td style="width:12%;font-weight:600;">위탁업무</td>
+                        <td style="width:15%;font-weight:600;">수탁자</td>
+                        <td style="width:20%;font-weight:600;">위탁되는 개인정보 항목</td>
+                        <td style="width:14%;font-weight:600;border-left:double;">위탁업무</td>
+                        <td style="width:14%;font-weight:600;">수탁자</td>
+                        <td style="width:20%;font-weight:600;">위탁되는 개인정보 항목</td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td >고객상담업무</td>
+                        <td>SK 앰엔서비스</td>
+                        <td style="text-align:left;">성명, 주소, 연락처, 휴대폰 번호 등</td>
+                        <td style="border-left:double;">고객상담업무</td>
+                        <td>SK 앰엔서비스</td>
+                        <td style="text-align:left;">성명, 주소, 연락처, 휴대폰 번호 등</td>
+                        <td style="width:5%;"></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>결제 정보</td>
+                        <td>㈜KG 이니시스, ㈜LG CNS</td>
+                        <td style="text-align:left;">결제정보(신용카드, 휴대폰 번호) 등</td>
+                        <td style="border-left:double;">결제 정보</td>
+                        <td>㈜KG 이니시스, ㈜LG CNS</td>
+                        <td style="text-align:left;">결제정보(신용카드, 휴대폰 번호) 등</td>
+                        <td></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>SMS, MMS, 발송,<br>
+                          APP PUSH 발송</td>
+                        <td>㈜KG 이니시스, <br>
+                          ㈜LG CNS,<br>
+                          ㈜휴머스온</td>
+                        <td style="text-align:left;">휴대폰 번호</td>
+                        <td style="border-left:double;">SMS, MMS, 발송, <br>
+                          APP PUSH 발송</td>
+                        <td>㈜KG 이니시스, <br>
+                          ㈜LG CNS,<br>
+                          ㈜휴머스온</td>
+                        <td style="text-align:left;">휴대폰 번호</td>
+                        <td></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>상품배송업무 등의 <br>
+                          서비스 제공</td>
+                        <td>이큐엘닷컴에 입점한 브랜드<br>
+                          <br>
+                          브랜드 리스트 보기</td>
+                        <td style="text-align:left;">- 주문자정보 : 
+                          주문자 성명, 휴대폰 번호, 이메일<br>
+                        - 배송지 정보 : <br>
+                          수령인 성명, 휴대폰 번호, 배송지 주소</td>
+                          <td style="border-left:double;">상품배송업무 등의 <br>
+                            서비스 제공</td>
+                          <td>이큐엘닷컴에 입점한 브랜드<br>
+                            <br>
+                            브랜드 리스트 보기</td>
+                          <td style="text-align:left;">- 주문자정보 : <br>
+                            주문자 성명, 휴대폰 번호, 이메일<br>
+                          - 배송지 정보 : <br>
+                            수령인 성명, 휴대폰 번호, 배송지 주소</td>
+                        <td></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>상품의 포장</td>
+                        <td>㈜제니엘 휴먼</td>
+                        <td style="text-align:left;">- 배송지 정보 : <br>
+                          수령인 성명, 휴대폰 번호, 배송지 주소</td>
+                          <td style="border-left:double;">상품의 포장</td>
+                          <td>㈜제니엘 휴먼</td>
+                          <td style="text-align:left;">- 배송지 정보 : <br>
+                            수령인 성명, 휴대폰 번호, 배송지 주소</td>
+                        <td></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>정보전산 처리 및  <br>
+                          유지/관리</td>
+                        <td>메가존 / 현대 IT&E</td>
+                        <td style="text-align:left;">성명,주소,연락처, 휴대폰 번호 등</td>
+                        <td style="border-left:double;">정보전산 처리 및  <br>
+                          유지/관리</td>
+                        <td>메가존 / 현대 IT&E</td>
+                        <td style="text-align:left;">성명,주소,연락처, 휴대폰 번호 등</td>
+                        <td></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td>콜센터 장비 및  <br>
+                          시스템제공</td>
+                        <td>㈜현대 HCN</td>
+                        <td style="text-align:left;">음성 녹취</td>
+                        <td style="border-left:double;">콜센터 장비 및  <br>
+                          시스템제공</td>
+                        <td>㈜현대 HCN</td>
+                        <td style="text-align:left;">음성 녹취</td>
+                        <td></td>
+                      </tr>
+                      <tr style="font-size:0.85rem;">
+                        <td></td>
+                        <td></td>
+                        <td style="text-align:left;"></td>
+                        <td style="border-left:double;">몰 사용자 이용 정보</td>
+                        <td>Braze. Inc.</td>
+                        <td style="text-align:left;">회원 ID, 디바이스 ID, OS 종류/버전</td>
+                        <td>추가</td>
+                      </tr>                      
+                    </table>                       
+                    </li>
                   <li class="textcomment">- 위탁업체의 추가</li>
                 </ul>
                 <br>
               </li>
               <li>제11조 의견수렴 및 불만처리 
-                <ul>
-                  <li><img class="pimage" src="http://ep.eqlstore.com/privacyPolicy/privacyPolicy_05.png"></li>
+                <ul class="classul">
+                  <li>
+                    
+                    <table cellspacing="0" cellpadding="0" class="tablemain">
+                      <tr>
+                        <td colspan="2" style="width:45%;font-weight:600;">기존</td>
+                        <td colspan="2" style="width:45%;font-weight:600;border-left:double;"">변경</td>
+                        <td  style="width:10%;font-weight:600;"">비고</td>
+                      </tr>
+                      <tr>
+                        <td style="width:23%;">개인정보침해신고센터</td>
+                        <td style="width:22%;">전화 : (국번없이) 118<br>
+                          URL : http://privacy.kisa.or.kr</td>
+                        <td style="width:23%;border-left:double;">개인정보침해신고센터</td>
+                        <td style="width:22%;">전화 : (국번없이) 118<br>
+                          URL : http://privacy.kisa.or.kr</td>
+                        <td rowspan="4" style="width:10%;"><b>명칭 및<br>링크 수정</b></td>
+                      </tr>
+                      <tr>
+                        <td style="width:23%;">개인정보분쟁조정위원회</td>
+                        <td style="width:22%;">전화 : 02-2100-2499<br>
+                          URL : http://www.kopico.go.kr</td>
+                        <td style="width:23%;border-left:double;">개인정보분쟁조정위원회</td>
+                        <td style="width:22%;">전화 : 02-2100-2499<br>
+                          URL : http://www.kopico.go.kr</td>
+                      </tr>
+                      <tr>
+                        <td style="width:23%;">대검찰청사이버수사과</td>
+                        <td style="width:22%;">전화 : (국번없이) 1301<br>
+                          URL : http://privacy.spo.go.kr</td>
+                        <td style="width:23%;border-left:double;">대검찰청사이버수사과</td>
+                        <td style="width:22%;">전화 : (국번없이) 1301<br>
+                          URL : <b>http://www.spo.go.kr</b></td>
+                      </tr>
+                      <tr>
+                        <td style="width:23%;">경찰청사이버안전국</td>
+                        <td style="width:22%;">전화 : (국번없이) 182<br>
+                          URL : http://cyberbureau.police.go.kr</td>
+                        <td style="width:23%;border-left:double;"><b>사이버범죄 신고시스템</b></td>
+                        <td style="width:22%;">전화 : (국번없이) 182<br>
+                          URL : <b>http://ecrm.police.go.kr</b></td>
+                      </tr>
+                    </table>                    
+                    </li>
                   <li class="textcomment">- 연락처 링크의 수정.</li>
                 </ul>
                 <br>
@@ -75,7 +430,7 @@
           </li>
           <li>
             2. 적용일정
-            <ul>
+            <ul class="classul">
               <li>1) 변경 내용 공지 기간 : 2021년 5월 00일 (OO) ~ 2021년 5월 00일(OO)</li>
               <li>2) 적용일자 : 2021년 5월 00일 (OO)</li>
             </ul>
